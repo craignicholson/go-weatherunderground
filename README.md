@@ -11,3 +11,8 @@ A set of examples use go to fetch data from weather underground.
 - Example Query using US ZipCode
 - Example using County/City {Japan/Tokyo}
 - History_YYYYMMDD returns a summary of the observed weather for the specified date.
+
+go-weatherunderground is also a client for the http server application server.go
+
+Once data has been collected from go-weatherunderground.go the data is posted
+to the http server (:8080), and the server.go app writes this data to mongodb.
