@@ -16,3 +16,5 @@ go-weatherunderground is also a client for the http server application server.go
 
 Once data has been collected from go-weatherunderground.go the data is posted
 to the http server (:8080), and the server.go app writes this data to mongodb.
+
+Copyright (c) 2015 Craig Nicholson
